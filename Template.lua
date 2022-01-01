@@ -1,5 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("CursedHub", "BloodTheme")
+local Window = Library.CreateLib("CursedHub | GameName", "BloodTheme")
+
+-- Scripts tab
+local TabScripts = Window:NewTab("Scripts")
+local SectionScripts = TabScripts:NewSection("Scripts will be found below")
+SectionScripts:NewButton("Anomic V", "Click the button to copy", function()
+        setclipboard(tostring('loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()'))
+end)
+
 
 
 -- Credits tab
