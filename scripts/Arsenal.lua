@@ -11,7 +11,7 @@ SectionScripts:NewButton("Darkhub (key)", "Click the button to execute", functio
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'),true))()
 end)
 SectionScripts:NewButton("Dexhub", "Click the button to execute", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))())
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
 end)
 
 
